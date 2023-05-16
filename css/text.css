@@ -11194,9 +11194,9 @@ body.profile_page.flat_page #footer_spacer {
 
 	html.responsive .profile_header .playerAvatar.profile_header_size {
 		max-width: none;
-		width: 125px;
-		height: 125px;
-        margin-left: 12px;
+		width: 160px;
+		height: 160px;
+        margin-left: 20px;
 	}
 }
 
@@ -11205,8 +11205,8 @@ body.profile_page.flat_page #footer_spacer {
 }
 
 .profile_header .persona_name {
-	line-height: 45px;
-	font-size: 25px;
+	line-height: 55px;
+	font-size: 27px;
 	color: rgb(255, 255, 255);
 
 	text-overflow: ellipsis;
@@ -11289,11 +11289,12 @@ body.profile_page.flat_page #footer_spacer {
 }
 
 .profile_header_badgeinfo .persona_level {
+    margin-left: 0px;
 	line-height: 44px;
 	margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 6px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    margin-right: -1000px;
+    margin-right: 800px;
 }
 
 .profile_header_badgeinfo .persona_level .friendPlayerLevel {
@@ -15957,7 +15958,7 @@ body.standard_page {
 }
 
 body, textarea {
-	font-family:Arial, Helvetica, Verdana, sans-serif;
+	font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17513,6 +17514,8 @@ p{
    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 20px;
     color: rgb(255, 255, 255);
+    line-height: 25px;
+    margin: 1px;
 }
 
 button{
@@ -17522,6 +17525,16 @@ button{
     color:white;
     padding:10px 25px;
     text-align:center;
-    font-size:16px;
+    font-size:19px;
     cursor:pointer;
+   }
+
+   .hh{
+    margin: 1px;
+    line-height: 50px;
+	margin-bottom: 5px;
+    font-size: 30px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-right: 40px;
+    margin-right: 56px;
    }
