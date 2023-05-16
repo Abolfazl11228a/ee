@@ -11133,7 +11133,7 @@ body.profile_page.flat_page #footer_spacer {
 
 	html.responsive .profile_header .profile_header_centered_persona {
 		position: static;
-		padding-bottom: 18px;
+		padding-bottom: 27px;
 	}
 
 	html.responsive .profile_header .profile_header_summary .persona_name_spacer,
@@ -17516,6 +17516,7 @@ p{
     color: rgb(255, 255, 255);
     line-height: 25px;
     margin: 1px;
+    padding-bottom: 25px;
 }
 
 button{
