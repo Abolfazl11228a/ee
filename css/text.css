@@ -11133,7 +11133,7 @@ body.profile_page.flat_page #footer_spacer {
 
 	html.responsive .profile_header .profile_header_centered_persona {
 		position: static;
-		padding-bottom: 27px;
+		padding-bottom: 30px;
 	}
 
 	html.responsive .profile_header .profile_header_summary .persona_name_spacer,
@@ -17537,4 +17537,9 @@ button{
     font-size: 30px;
     font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin-right: 20px;
+   }
+
+   .tt{
+    padding-bottom: 100px;
+
    }
