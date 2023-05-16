@@ -11083,7 +11083,7 @@ body.profile_page.flat_page #footer_spacer {
 
 .profile_header .playerAvatar.profile_header_size {
 	float: left;
-	margin-right: -50px;
+	margin-right: -5px;
 }
 
 .profile_header_badgeinfo {
@@ -17531,10 +17531,10 @@ button{
 
    .hh{
     margin: 1px;
-    line-height: 50px;
+    line-height: 53px;
 	margin-bottom: 5px;
     font-size: 30px;
     font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin-right: 40px;
-    margin-right: 56px;
+    margin-right: -556px;
    }
