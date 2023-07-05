@@ -11037,7 +11037,7 @@ body.profile_page.flat_page #footer_spacer {
 	padding-top: 8px;
 	padding-right: 8px;
 	color: #c4c4c4;
-	font-size: 13px;
+	font-size: 20px;
 }
 
 .profile_header_summary {
@@ -11143,7 +11143,10 @@ body.profile_page.flat_page #footer_spacer {
 
 	html.responsive .profile_header .header_real_name {
 		height: auto;
-		line-height: 24px;
+		line-height: 16px;
+        margin-left: -10px;
+
+    }
 	}
 
 	html.responsive .profile_header_content {
@@ -11151,7 +11154,7 @@ body.profile_page.flat_page #footer_spacer {
 	}
 
 	html.responsive .profile_header {
-		padding-top: 8px;
+		padding-top: 12px;
 	}
 
 	html.responsive .profile_header_bg_texture {
@@ -11163,7 +11166,6 @@ body.profile_page.flat_page #footer_spacer {
 		overflow: hidden;
 	}
 
-}
 
 @media screen and ( max-width: 460px )
 {
@@ -16031,7 +16033,10 @@ form {
 input[type=text], input[type=password], input[type=number], select {
 	color: #909090;
 	background-color: rgba( 0, 0, 0, 0.2 );
-	border: 1px solid #000;
+	border: 1px solid #909090;
+    margin-inline: 73px;
+    box-shadow: 1px 0 #909090;
+    font-size: 18px;
 	/* should set this on individual styles we know look good with it */
 	/* box-shadow: 1px 1px 0 0 rgba( 91, 132, 181, 0.2 ); */
 	border-radius: 3px;
@@ -17612,3 +17617,6 @@ button{
   #search-button:hover {
     background-color: #45a049;
   }
+  p6{
+    user-select: none;
+}
