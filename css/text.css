@@ -10906,7 +10906,7 @@ div.profile_page {
 	background-image: url( '../../images/profile/2020/bg_dots.png' );
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-color: #222222;
+	background-color: #1b1b1b;
 }
 
 body.profile_page.private_profile {
@@ -10998,17 +10998,8 @@ body.profile_page.flat_page #footer_spacer {
 	max-width: 976px;
 	min-height: 224px;
 	margin: 0 auto;
-	background: radial-gradient(
-		farthest-side at bottom right,
-		var(--gradient-right),
-		transparent 500px
-	  ),
-	  radial-gradient(
-		farthest-corner at bottom left,
-		var(--gradient-left),
-		transparent 600px
-	  );
-	  background-color: var(--gradient-background);
+	background: #1b1b1b;
+	  background-color: #1b1b1b;
 	background-repeat: no-repeat;
 	background-position: center;
 
